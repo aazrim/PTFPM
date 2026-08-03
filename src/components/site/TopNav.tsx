@@ -145,15 +145,15 @@ export function TopNav() {
               light ? "text-hero-foreground" : "text-foreground"
             }`}
           >
-            <p className="font-display text-sm font-extrabold tracking-tight lg:text-base">
+            <p className="whitespace-nowrap font-display text-sm font-extrabold tracking-tight lg:text-base">
               FAJAR PERKASA MAKMUR
             </p>
             <p
-              className={`text-[10px] font-semibold uppercase tracking-[0.2em] ${
+              className={`mt-0.5 whitespace-nowrap text-[11px] font-semibold uppercase tracking-[0.12em] ${
                 light ? "text-hero-muted" : "text-muted-foreground"
               }`}
             >
-              Transportation &amp; Logistic
+              Transportation &amp; Logistics
             </p>
           </div>
         </button>
