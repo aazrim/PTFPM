@@ -198,11 +198,9 @@ export function TopNav() {
         {/* CTA + mobile toggle */}
         <div className="flex items-center gap-4">
           <a
-            href="#contact"
-            onClick={(e) => {
-              e.preventDefault();
-              go("contact");
-            }}
+            href="https://wa.me/6283895771275"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-accent hidden items-center gap-2 rounded-full px-5 py-2.5 text-xs font-bold uppercase tracking-wider lg:inline-flex"
           >
             <Phone className="size-3.5" />
@@ -253,11 +251,9 @@ export function TopNav() {
             ))}
           </ul>
           <a
-            href="#contact"
-            onClick={(e) => {
-              e.preventDefault();
-              go("contact");
-            }}
+            href="https://wa.me/6283895771275"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-accent mt-4 flex w-full items-center justify-center gap-2 rounded-full px-5 py-3 text-xs font-bold uppercase tracking-wider"
           >
             <Phone className="size-3.5" />

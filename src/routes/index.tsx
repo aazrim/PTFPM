@@ -15,6 +15,7 @@ import { TopNav } from "@/components/site/TopNav";
 import { Reveal } from "@/components/site/Reveal";
 import { Counter } from "@/components/site/Counter";
 import { ContactForm } from "@/components/site/ContactForm";
+import { CustomerLogos } from "@/components/site/CustomerLogos";
 import logo from "@/assets/fpm-2-logo.png";
 import heroImg from "@/assets/hero-trucks.jpg";
 import aboutImg from "@/assets/about-fleet.jpg";
@@ -66,17 +67,6 @@ const services = [
   },
 ];
 
-
-const clients = [
-  "SINAR BAJA",
-  "NUSA CEMENT",
-  "GARUDA AGRO",
-  "PRIMA CHEMICAL",
-  "MEGA STEEL",
-  "TIRTA PACK",
-  "ANEKA MINING",
-  "BINTANG FOOD",
-];
 
 const licenses = [
   { title: "SIUJPT Freight Forwarding", desc: "Licensed multimodal transport operator under the Ministry of Transportation." },
@@ -241,16 +231,7 @@ function Index() {
           </h2>
         </Reveal>
 
-        <div className="mt-12 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-border bg-border sm:grid-cols-4">
-          {clients.map((c) => (
-            <div
-              key={c}
-              className="flex h-24 items-center justify-center bg-background px-4 text-center font-display text-sm font-extrabold tracking-widest text-muted-foreground transition-colors hover:text-foreground"
-            >
-              {c}
-            </div>
-          ))}
-        </div>
+        <CustomerLogos />
 
         <div className="mt-10 grid gap-6 lg:grid-cols-2">
           {[
