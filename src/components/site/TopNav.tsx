@@ -211,7 +211,7 @@ export function TopNav() {
           <button
             aria-label={open ? "Close menu" : "Open menu"}
             onClick={() => setOpen((v) => !v)}
-            className={`rounded-lg border p-2.5 transition-colors lg:hidden ${
+            className={`rounded-lg border p-3 transition-colors lg:hidden ${
               light
                 ? "border-hero-muted/40 text-hero-foreground"
                 : "border-border text-foreground hover:bg-surface"

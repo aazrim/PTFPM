@@ -91,7 +91,7 @@ function Index() {
       <TopNav />
 
       {/* HERO */}
-      <section id="home" className="relative flex min-h-screen flex-col items-center overflow-hidden lg:flex-row lg:items-center">
+      <section id="home" className="relative flex min-h-dvh flex-col items-center overflow-hidden lg:flex-row lg:items-center">
         <img
           src={heroImg}
           alt="Convoy of PT Fajar Perkasa Makmur cargo trucks on a highway at sunset"
