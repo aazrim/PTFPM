@@ -313,22 +313,22 @@ function Index() {
                 <span>
                   <strong className="block">Head Office</strong>
                   <span className="text-muted-foreground">
-                    Jl. Raya Industri No. 88, Kawasan Industri Jababeka, Bekasi, Jawa Barat 17530
+                    Vila Asri Blok E No.3, Jl. Mustika Jaya, Bekasi
                   </span>
                 </span>
               </li>
               <li className="flex gap-4">
                 <Phone className="mt-0.5 size-5 shrink-0 text-primary" />
                 <span>
-                  <strong className="block">Phone</strong>
-                  <span className="text-muted-foreground">+62 21 8990 1234 · +62 811 8800 991</span>
+                  <strong className="block">Telp.</strong>
+                  <span className="text-muted-foreground">+62 21 8262 5272</span>
                 </span>
               </li>
               <li className="flex gap-4">
                 <Mail className="mt-0.5 size-5 shrink-0 text-primary" />
                 <span>
                   <strong className="block">Email</strong>
-                  <span className="text-muted-foreground">sales@fajarperkasamakmur.co.id</span>
+                  <span className="text-muted-foreground">pt.fajarperkasamakmur@gmail.com</span>
                 </span>
               </li>
             </ul>
