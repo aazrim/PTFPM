@@ -15,7 +15,7 @@ import { TopNav } from "@/components/site/TopNav";
 import { Reveal } from "@/components/site/Reveal";
 import { Counter } from "@/components/site/Counter";
 import { ContactForm } from "@/components/site/ContactForm";
-import logo from "@/assets/fpm-2-logo.png.asset.json";
+import logo from "@/assets/fpm-2-logo.png";
 import heroImg from "@/assets/hero-trucks.jpg";
 import aboutImg from "@/assets/about-fleet.jpg";
 
@@ -355,7 +355,7 @@ function Index() {
         <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
           <div className="flex items-center gap-3">
             <img
-              src={logo.url}
+              src={logo}
               alt="Fajar Perkasa Makmur logo"
               loading="lazy"
               width={32}

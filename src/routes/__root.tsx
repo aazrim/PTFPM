@@ -12,7 +12,6 @@ import { useEffect, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { Toaster } from "../components/ui/sonner";
-import logo from "../assets/logo-fpm.jpg.asset.json";
 
 
 function NotFoundComponent() {
@@ -103,7 +102,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap",
       },
-      { rel: "icon", href: "/__l5e/assets-v1/00cc47f5-3eaa-46b6-8f05-695878e08324/logo-fpm.jpg", type: "image/x-icon" },
+      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
   }),
 

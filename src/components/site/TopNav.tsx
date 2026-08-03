@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
-import logo from "@/assets/fpm-2-logo.png.asset.json";
+import logo from "@/assets/fpm-2-logo.png";
 
 const links = [
   { id: "home", label: "Home" },
@@ -132,7 +132,7 @@ export function TopNav() {
         >
           <span className="flex items-center justify-center rounded-xl bg-white px-2.5 py-1.5 shadow-sm ring-1 ring-black/5 transition-transform duration-300 group-hover:scale-105">
             <img
-              src={logo.url}
+              src={logo}
               alt="Logo FPM Fajar Perkasa Makmur"
               width={96}
               height={60}
